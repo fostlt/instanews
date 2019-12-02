@@ -63,9 +63,23 @@ table {
   height: 100%;
   text-align: center;
   padding: 3rem; }
+  @media (min-width: 600px) {
+    .instanews-header {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+              flex-direction: row; } }
 
 .instanews-logo {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  display: block;
+  width: 18.75rem; }
+  @media (min-width: 600px) {
+    .instanews-logo {
+      width: 50%; } }
+  @media (min-width: 600px) {
+    .instanews-logo img {
+      height: 150px;
+      width: 50%; } }
 
 .instanews-footer {
   text-align: center;
@@ -75,13 +89,13 @@ table {
   .instanews-footer span {
     text-transform: uppercase; }
 
-.instanews-logo {
-  display: block;
-  width: 18.75rem; }
-
 .search-box {
   display: block;
   width: 18.75rem; }
+  @media (min-width: 600px) {
+    .search-box {
+      width: 50%;
+      align-self: center; } }
 
 .search-box-content p {
   margin-bottom: 1rem;

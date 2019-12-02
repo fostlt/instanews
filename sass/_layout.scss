@@ -15,10 +15,30 @@
     height: 100%;
     text-align: center;
     padding: 3rem;
+    @include tab{
+        flex-direction: row;
+    }
+
+
 }
 
 .instanews-logo{
     margin-bottom: 1rem;
+    @include dnw;
+    
+    @include tab{
+        width: 50%;
+    }
+
+
+    img{
+        @include tab{ 
+        height: 150px;
+        width: 50%;
+        }
+    }
+
+
 }
 
 .instanews-footer{
@@ -31,12 +51,14 @@
     }
 }
 
-.instanews-logo{
-    @include dnw;
-}
+
 
 .search-box{
     @include dnw;
+    @include tab{
+        width: 50%;
+        align-self: center;
+    }
 }
 
 .search-box-content{
@@ -74,6 +96,7 @@
         display: flex;
         flex-wrap: wrap;
     }
+    
 }
 
 .article{
