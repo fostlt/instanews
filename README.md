@@ -1,25 +1,26 @@
-# Instanews by Lance
-Basic website making use of the New York times API to make a news website. This is now
-my second webpage.
+# Instanews
+Instanews is my 2nd project at Red Academy. The main focus of this site is to learn how to use an api, and to learn how to use jquery.
 
-## What I learned
-```
-jQuery, Gulp, JS, SASS, and CSS
-```
+# What did I learn?
+How to use an api and select the correct part of an array.
 
-I've started to feel a little more confident in understanding JS & jQuery. I still find it really hard, but I'm definitely understanding more.
+slice an array to get the correct amount of items I needed.
 
-## What I want to work on...
-Understanding what will effect my webpage later on. I still don't have a good grasp on what will cause me problems later on. 
+Basic understanding of how jquery works.
 
-I want to learn how to properly use SASS. I didn't get to make full use of it. It seems way too helpful not to learn.
+#What does it look like?
+## Link Available Below
+[InstaNews](https://fostlt.github.io/instanews/ )
 
-## Final Notes
-I find it odd how much you can improve by the end of a project that you're working on.
-Now that I'm "done" with it. I can see glaring errors in the way I did things.
+## Mobile
+![small](https://user-images.githubusercontent.com/49625943/69937822-953efa00-1490-11ea-86a5-994afc7e24b5.gif)
 
+## Tablet
+![tab1](https://user-images.githubusercontent.com/49625943/69937823-953efa00-1490-11ea-8fd9-7841644dd271.gif)
 
+## Desktop
 
+![desktop](https://user-images.githubusercontent.com/49625943/69937821-94a66380-1490-11ea-9ad3-10ada7142e9f.gif)
 
-
-# instanews
+# Thanks for viewing
+### Author - ``` Lance ```
