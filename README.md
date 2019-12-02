@@ -8,7 +8,7 @@ slice an array to get the correct amount of items I needed.
 
 Basic understanding of how jquery works.
 
-#What does it look like?
+# What does it look like?
 ## Link Available Below
 [InstaNews](https://fostlt.github.io/instanews/ )
 
@@ -24,3 +24,4 @@ Basic understanding of how jquery works.
 
 # Thanks for viewing
 ### Author - ``` Lance ```
+### API - ``` New York Times ```
