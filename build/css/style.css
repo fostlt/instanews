@@ -1,0 +1,129 @@
+html {
+  font-size: 16px; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  background-color: #000000; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.main-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%; }
+
+.instanews-header {
+  display: -webkit-box;
+  display: flex;
+  align-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  text-align: center;
+  padding: 3rem; }
+
+.instanews-logo {
+  margin-bottom: 1rem; }
+
+.instanews-footer {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "Open Sans", sans-serif;
+  color: #c2c2c2; }
+  .instanews-footer span {
+    text-transform: uppercase; }
+
+.instanews-logo {
+  display: block;
+  width: 18.75rem; }
+
+.search-box {
+  display: block;
+  width: 18.75rem; }
+
+.search-box-content p {
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff; }
+
+.search-box-content select {
+  background: #ffffff;
+  padding: 3px 4px 3px 5px;
+  font-size: 1rem;
+  width: 50%;
+  font-family: "Open Sans", sans-serif; }
+
+/* Articles */
+.article-container {
+  position: relative; }
+  @media (min-width: 480px) {
+    .article-container {
+      -webkit-box-flex: 1;
+              flex: 1 0 50%; } }
+
+.articles-layout a {
+  position: absolute; }
+
+@media (min-width: 480px) {
+  .articles {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap; } }
+
+.article {
+  height: 420px;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap; }
+
+.nytAbstract {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.6);
+  line-height: 1.5rem; }

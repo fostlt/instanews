@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instanews</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./build/css/style.min.css">
+</head>
+<body>
+
+<section class="main-container">
+    <header class="instanews-header">
+        <div class="instanews-logo">
+            <img src="./images/nyt-logo.svg">
+        </div>
+        <form class="search-box" action="#" method="post">
+            <div class="search-box-content">
+                <p>Choose a section:</p>
+                <select name="sections" id="mySelection">
+                    <option value>Sections ...</option>
+                    <option value="home">Home</option>
+                    <option value="arts">Arts</option>
+                    <option value="business">Business</option>
+                    <option value="sports">Sports</option>
+                    <option value="technology">Technology</option>
+                    <option value="fashion">Fashion</option>
+                </select>
+            </div>
+        </form>
+    </header>
+
+
+<section class="article-layout">
+    <div class="articles" id="articles-id"></div>
+    <img>
+</section>
+
+<footer class="instanews-footer">
+    <div class="copyright">
+        <p>Ⓒ Copyright 2019 <span>Instanews</span></p>
+    </div>
+</footer>
+
+</section>
+
+
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script src="./build/js/script.min.js"></script>
+</body>
+</html>
