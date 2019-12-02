@@ -59,7 +59,7 @@
     margin-bottom: 3rem;
     font-family: $OpenSans;
     color: $G;
-
+    margin-top: 1rem;
     span{
         text-transform: uppercase;
     }
@@ -124,6 +124,19 @@
 
 }
 
+.nytError{
+    color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 53%;
+    left: 50%;
+    background: firebrick;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
 
 
 

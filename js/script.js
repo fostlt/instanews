@@ -16,7 +16,7 @@ $("#mySelection").on("change", function() {
     dataType: "json"
   })
     .done(function(data) {
-      $("#main-media").removeClass("main-media-hidden");
+     
 
       const articleFilter = data.results.filter(function(dataSet) {
         return dataSet.multimedia[4] !== undefined;

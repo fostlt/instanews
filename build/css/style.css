@@ -92,7 +92,8 @@ table {
   text-align: center;
   margin-bottom: 3rem;
   font-family: "Open Sans", sans-serif;
-  color: #c2c2c2; }
+  color: #c2c2c2;
+  margin-top: 1rem; }
   .instanews-footer span {
     text-transform: uppercase; }
 
@@ -140,6 +141,19 @@ table {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap; }
+
+.nytError {
+  color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 53%;
+  left: 50%;
+  background: firebrick;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 1.2rem; }
 
 .nytAbstract {
   position: absolute;
