@@ -140,7 +140,22 @@ table {
   width: 100%;
   display: -webkit-box;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden; }
+  .article:hover {
+    background: black; }
+    .article:hover .nytAbstract {
+      height: 100%;
+      -webkit-transition: .6s;
+      transition: .6s;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+              justify-content: center; }
 
 .nytError {
   color: #fff;
@@ -158,11 +173,17 @@ table {
 .nytAbstract {
   position: absolute;
   bottom: 0;
-  padding: 1rem;
   color: #ffffff;
   font-size: 1.2rem;
   background: rgba(0, 0, 0, 0.6);
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  width: 100%;
+  bottom: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+  height: 0%;
+  text-align: center; }
 
 .loading {
   display: none;

@@ -121,9 +121,19 @@
     width: 100%;
     display:flex;
     flex-wrap: wrap;
-
+    transition: 0.5s;
+    overflow: hidden;
+  &:hover {
+    background: black;
+    .nytAbstract {
+      height: 100%;
+      transition: .6s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 }
-
+}
 .nytError{
     color: #fff;
     margin: 0 auto;
@@ -143,11 +153,16 @@
 .nytAbstract{
     position: absolute;
     bottom: 0;
-    padding: 1rem;
     color: $W;
     font-size: 1.2rem;
     background: rgba(0,0,0,.6);
     line-height: 1.5rem;
+    width: 100%;
+    bottom: 0;
+    transition: 1s;
+    overflow: hidden;
+    height:0%;
+    text-align: center;
 
 
 }
@@ -159,5 +174,4 @@
     top: 50%;
     left: 50%;
     height: 150px;    
-
 }
