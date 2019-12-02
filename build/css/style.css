@@ -68,6 +68,9 @@ table {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
               flex-direction: row; } }
+  @media (min-width: 1000px) {
+    .instanews-header {
+      width: 30rem; } }
 
 .instanews-logo {
   margin-bottom: 1rem;
@@ -80,6 +83,10 @@ table {
     .instanews-logo img {
       height: 150px;
       width: 50%; } }
+  @media (min-width: 1000px) {
+    .instanews-logo img {
+      height: 12rem;
+      width: unset; } }
 
 .instanews-footer {
   text-align: center;
@@ -116,6 +123,10 @@ table {
     .article-container {
       -webkit-box-flex: 1;
               flex: 1 0 50%; } }
+  @media (min-width: 1000px) {
+    .article-container {
+      -webkit-box-flex: 1;
+              flex: 1 0 25%; } }
 
 .articles-layout a {
   position: absolute; }
