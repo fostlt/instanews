@@ -128,9 +128,6 @@ table {
       -webkit-box-flex: 1;
               flex: 1 0 25%; } }
 
-.articles-layout a {
-  position: absolute; }
-
 @media (min-width: 480px) {
   .articles {
     display: -webkit-box;
@@ -152,3 +149,12 @@ table {
   font-size: 1.2rem;
   background: rgba(0, 0, 0, 0.6);
   line-height: 1.5rem; }
+
+.loading {
+  display: none;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 150px; }

@@ -6,7 +6,6 @@ $("#mySelection").on("change", function() {
   const selected = $(this).val();
   articleContainer.html("");
   $(".loading").show();
-  $(".footer").hide();
 
   $.ajax({
     method: "GET",

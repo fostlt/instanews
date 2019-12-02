@@ -59,6 +59,7 @@
     margin-bottom: 3rem;
     font-family: $OpenSans;
     color: $G;
+
     span{
         text-transform: uppercase;
     }
@@ -105,11 +106,7 @@
 
 }
 
-.articles-layout{
-    a{
-        position: absolute;
-    }
-}
+
 
 .articles{
     @include small{
@@ -139,5 +136,15 @@
     background: rgba(0,0,0,.6);
     line-height: 1.5rem;
 
+
+}
+
+.loading {
+    display: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    height: 150px;    
 
 }
