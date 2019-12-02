@@ -96,6 +96,10 @@ table {
   margin-top: 1rem; }
   .instanews-footer span {
     text-transform: uppercase; }
+  @media (min-width: 1000px) {
+    .instanews-footer {
+      text-align: left;
+      margin-left: 3rem; } }
 
 .search-box {
   display: block;
@@ -183,7 +187,9 @@ table {
   transition: 1s;
   overflow: hidden;
   height: 0%;
-  text-align: center; }
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7rem; }
 
 .loading {
   display: none;
