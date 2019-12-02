@@ -60,6 +60,6 @@ $("#mySelection").on("change", function() {
 $('select[name="sections"]').change(function(){
   
   if ($(this).val() == "select")
-  location.reload();
+  location.reload(true);
   
 });
